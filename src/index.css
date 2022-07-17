@@ -1,0 +1,74 @@
+body {
+    background-color: #2E3F7F;
+}
+
+.Component{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+h1 {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: -15px;
+}
+
+.Off {
+    background-image: url(moderate.svg);
+    background-size: cover;
+    opacity: 0.5;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+    height: 100px;
+    width: 100px;
+    background-color: #01142F;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid transparent;
+}
+
+.Light {
+    background-image: url(light.svg);
+    background-size: cover;
+    opacity: 1;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+    height: 100px;
+    width: 100px;
+    background-color: #01142F;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid white;
+    
+}
+
+.Moderate {
+    
+    background-image: url(moderate.svg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    background-color: #01142F;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid white;
+}
+
+.Heavy { 
+    background-image: url(heavy.svg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    background-color: #01142F;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid white;
+}
